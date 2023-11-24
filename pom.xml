@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Corvit Releases Nexus Repository</name>
-	      <url>http://172.31.4.21/repository/ublbank-releases/</url>
+	      <url>http://172.31.4.21:8081/repository/ublbank-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Corvit Snapshot Nexus Repository </name>
-	      <url>http://172.31.4.21/repository/ublbank-snapshot/</url>
+	      <url>http://172.31.4.21:8081/repository/ublbank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
