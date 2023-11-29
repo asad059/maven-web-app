@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Corvit Systems Lahore </h1>
+<h1 align="center">Welcome to Teclops UK </h1>
 <h1 align="center"> Corvit Systems is very Good Training center for DevOps in Lahore, Pakistan</h1>
 <hr>
 <br>
