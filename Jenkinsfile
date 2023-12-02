@@ -18,7 +18,7 @@ node {
     stage('upload to nexus repo'){
         sh "${mavenhome}/bin/mvn clean deploy"
     }
-    stage('Deploy to tomcat server'){
+     stage('Deploy to tomcat server'){
         sshagent(['jenkinsansi']) {
     sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.11.254:/opt/apache-tomcat-9.0.83/webapps/"
 }
